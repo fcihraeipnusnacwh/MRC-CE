@@ -21,6 +21,7 @@ California is a state in the Pacific Region of the United States of America. Wit
 # Run on sample data
 ## Run on tensorflow==1.13.1
 - run on Chinese data
+1. BERT-MRC
 ```
 python run_squad.py \
   --vocab_file=pretrained_model/chinese_L-12_H-768_A-12/vocab.txt \
@@ -36,6 +37,15 @@ python run_squad.py \
   --max_seq_length=256 \
   --doc_stride=128 \
   --output_dir=output/
+```
+2. Random Forest
+First, you need to put the nbest_predictions.json and forest_construction.py in the same folder
+```
+python3 forest_construction.py
+```
+3. Rule_based_Pruning
+```
+python3 Rule_based_Pruning.py
 ```
 - run on English data
 ```
@@ -53,6 +63,15 @@ python run_squad.py \
   --doc_stride=128 \
   --do_lower_case=False \
   --output_dir=output/
+```
+2. Random Forest
+First, you need to put the nbest_predictions.json and forest_construction.py in the same folder
+```
+python3 forest_construction.py
+```
+3. Rule_based_Pruning
+```
+python3 Rule_based_Pruning.py
 ```
 ## Run on tensorflow==2.0.0
 Only release the code for Chinese data
