@@ -48,6 +48,7 @@ python3 forest_construction.py
 python3 Rule_based_Pruning.py
 ```
 - run on English data
+1. BERT-MRC
 ```
 python run_squad.py \
   --vocab_file=pretrained_model/cased_L-12_H-768_A-12/vocab.txt \
