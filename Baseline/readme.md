@@ -87,3 +87,9 @@ python3 flair_baseline_ch.py
 ```
 python3 flair_baseline_en.py
 ```
+# Reference
+- XLNet-NER: <https://github.com/Ma-Dan/XLNet-ChineseNER>
+- Flair: <https://github.com/flairNLP/flair>
+- xlm-roberta: <https://github.com/mohammadKhalifa/xlm-roberta-ner>
+- bert-bilstm-crf: <https://github.com/macanv/BERT-BiLSTM-CRF-NER>
+- bert-bilstm-crf: <https://github.com/kyzhouhzau/Bert-BiLSTM-CRF>
