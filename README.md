@@ -19,7 +19,7 @@ California is a state in the Pacific Region of the United States of America. Wit
 ```
 
 # Run on sample data
-## Run on tensorflow==1.13.1
+## Version 1: Run on tensorflow==1.13.1
 - run on Chinese data
 1. BERT-MRC
 ```
@@ -74,7 +74,7 @@ python3 forest_construction.py
 ```
 python3 Rule_based_Pruning.py
 ```
-## Run on tensorflow==2.0.0
+## Version 2: Run on tensorflow==2.0.0
 Only release the code for Chinese data
 ```
 train: ysy_find_concepts.py test
