@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Jul 18 10:32:40 2020
-
-@author: yuansiyu
-"""
 from collections import Counter
 def compare(s, t):
     return Counter(s) == Counter(t)
