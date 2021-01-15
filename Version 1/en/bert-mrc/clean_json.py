@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Jul 11 15:58:14 2020
-
-@author: yuansiyu
-"""
 from collections import Counter
 import re
 def compare(s, t):
