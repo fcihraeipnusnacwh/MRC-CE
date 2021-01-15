@@ -38,7 +38,7 @@ python run_squad.py \
   --doc_stride=128 \
   --output_dir=output/
 ```
-2. Random Forest
+2. Random Forest  
 First, you need to put the nbest_predictions.json and forest_construction.py in the same folder
 ```
 python3 forest_construction.py
@@ -65,7 +65,7 @@ python run_squad.py \
   --do_lower_case=False \
   --output_dir=output/
 ```
-2. Random Forest
+2. Random Forest  
 First, you need to put the nbest_predictions.json and forest_construction.py in the same folder
 ```
 python3 forest_construction.py
