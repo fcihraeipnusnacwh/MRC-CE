@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Jul  2 09:17:44 2020
-
-@author: yuansiyu
-"""
 import re
 
 def dataset_clean(dataset):
