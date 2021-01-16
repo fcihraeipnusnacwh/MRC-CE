@@ -72,10 +72,18 @@ python3 model.py --entry test
 ```
 - run on English data
 ```
-python3 model.py --entry train
-```
-```
-python3 model.py --entry test
+python3 run_ ner.py --data_ dir dataset \
+--labels ./labels.txt 
+--model_name_or_path  xlnet-base-cased \
+--output_dir output \
+--max_seq_length 256 \
+--num_train_epochs 3 \
+--per_device_train_batch_size 32 \
+--save_ steps 750 \
+--seed 1 \
+--do_ train \
+--do_ eval \
+--do_ predict
 ```
 
 # flair
@@ -89,6 +97,7 @@ python3 flair_baseline_en.py
 ```
 # Reference
 - XLNet-NER: <https://github.com/Ma-Dan/XLNet-ChineseNER>
+- XLNet-NER: <https://github.com/huggingface/transformers>
 - Flair: <https://github.com/flairNLP/flair>
 - xlm-roberta: <https://github.com/mohammadKhalifa/xlm-roberta-ner>
 - bert-bilstm-crf: <https://github.com/macanv/BERT-BiLSTM-CRF-NER>
