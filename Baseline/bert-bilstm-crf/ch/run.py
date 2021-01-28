@@ -1,12 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
-"""
-运行 BERT NER Server
-#@Time    : 2019/1/26 21:00
-# @Author  : MaCan (ma_cancan@163.com)
-# @File    : run.py
-"""
 
 from __future__ import absolute_import
 from __future__ import division
