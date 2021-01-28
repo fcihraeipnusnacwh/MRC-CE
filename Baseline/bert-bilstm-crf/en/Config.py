@@ -1,8 +1,4 @@
-#! usr/bin/env python3
-# -*- coding:utf-8 -*-
-"""
-@Author:zhoukaiyin
-"""
+
 class BilstmCrfConfig(object):
     # data
     train_data = "./data/train_probase_mark.txt"
