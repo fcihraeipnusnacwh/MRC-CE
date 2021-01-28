@@ -1,8 +1,4 @@
-#! usr/bin/env python3
-# -*- coding:utf-8 -*-
-"""
-@Author:zhoukaiyin
-"""
+
 
 from Bert_Bilstm_crf import Model_Graph
 from utils import eval_result
