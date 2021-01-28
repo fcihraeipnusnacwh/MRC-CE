@@ -1,8 +1,4 @@
-#! usr/bin/env python3
-# -*- coding:utf-8 -*-
-"""
-@Author:zhoukaiyin
-"""
+
 from utils import *
 import tensorflow as tf
 from data_load import get_batch_data,load_vocab
