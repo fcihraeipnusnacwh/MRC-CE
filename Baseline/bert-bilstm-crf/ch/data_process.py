@@ -1,12 +1,3 @@
-# encoding=utf-8
-
-"""
-用于语料库的处理
-1. 全部处理成小于max_seq_length的序列，这样可以避免解码出现不合法的数据或者在最后算结果的时候出现out of range 的错误。
-
-@Author: Macan
-"""
-
 
 import os
 import codecs
