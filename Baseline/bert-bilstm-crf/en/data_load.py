@@ -1,8 +1,4 @@
-#! usr/bin/env python3
-# -*- coding:utf-8 -*-
-"""
-@Author:zhoukaiyin
-"""
+
 from Config import BilstmCrfConfig as config
 from collections import Counter
 import os
