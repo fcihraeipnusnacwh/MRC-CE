@@ -1,7 +1,3 @@
-# -*- coding:utf-8 -*-
-# Utils For NER
-# Author    yanwii
-# Author    Ma-Dan
 
 def format_result(result, text, tag):
     entities = []
