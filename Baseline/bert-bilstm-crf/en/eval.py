@@ -1,8 +1,4 @@
-#! usr/bin/env python3
-# -*- coding:utf-8 -*-
-"""
-@Author:zhoukaiyin
-"""
+
 from train import Model_Graph
 from data_load import *
 from utils import *
