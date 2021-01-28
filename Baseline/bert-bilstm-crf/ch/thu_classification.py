@@ -1,9 +1,4 @@
-# encoding=utf-8
 
-"""
-基于清华大学语料库的中文文本分类
-Author:MaCan
-"""
 
 from __future__ import absolute_import
 from __future__ import division
