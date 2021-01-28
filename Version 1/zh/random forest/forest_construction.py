@@ -19,7 +19,7 @@ def cover_check(con,con_ls):
 
 if __name__ == '__main__':
     
-    path = 'D:\\PuTTY\\mechain_learning\\nbest_predictions.json'
+    path = 'nbest_predictions.json'
     file = open(path, "r")
     fileJson = json.load(file)
     
@@ -187,36 +187,5 @@ if __name__ == '__main__':
             f1.write('\n')
             
     f1.close()
-    
-    '''
-    log_model = LogisticRegression()
-    log_model.fit(x_train, y_train)
-    y_pred = log_model.predict(x_test)
-    
-    test.loc[:, 'pre_logistic']  = y_pred
-    
-    for key in infer_test.keys():
-        infer_test[key].append([])
-        
-    for i,trans in test.iterrows():
-        if trans['pre_logistic'] == 0:
-            continue
-        else:
-            key = trans['key']
-            info = fileJson[key][0]
-            
-            infer_test[info][3].append(trans['concept'])
-    
-    with open('pre_test_logistic.txt', 'w', encoding="utf-8") as f1:
-        for info in infer_test.keys():
-    
-            f1.write(info)
-            f1.write('\t')
-            f1.write(infer_test[info][0])
-            f1.write('\t')
-            f1.write(','.join(list(set(infer_test[info][3]))))
-            f1.write('\n')
-            
-    f1.close()
-    '''
+   
     
