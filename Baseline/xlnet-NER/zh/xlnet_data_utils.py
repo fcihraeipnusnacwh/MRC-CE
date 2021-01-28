@@ -1,10 +1,4 @@
-# -*- coding:utf-8 -*-
-'''
-@Author: yanwii
-@Date: 2019-02-26 11:44:15
-@Author: Ma-Dan
-@Date: 2019-09-01 18:00:00
-'''
+
 import copy
 import sentencepiece as spm
 from prepro_utils import preprocess_text, encode_ids
