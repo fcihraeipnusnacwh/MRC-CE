@@ -95,6 +95,23 @@ python3 flair_baseline_ch.py
 ```
 python3 flair_baseline_en.py
 ```
+
+# KVMN
+1. Download Standford coreNLP
+2. Download Pre-trained Embeddings
+3. Datasets:For all datasets, you can run the script data_preprocess.py with python data_preprocess.py --dataset ${dataset}$ --data_dir ${data_dir}$ to preprocess the aforementioned datasets automatically.
+4. Data preprocess 
+(a)After downloading Tencent Embedding, you need to extract the unigrams according to python data_process.py --file_path=${PATH_TO_TENCENT_EMBEDDING}$  
+(b)For all syntactic information, you can run the script data_helper.py to get the syntactic information needed to run our model, you can run the script by python data_helper.py --dataset ${data_dir}$  
+5. Train 
+for English datasets
+```
+python run_en.py  and python run_cn.py for Chinese datasets
+```
+for Chinese datasets
+```
+python run_cn.py
+```
 # Reference
 - XLNet-NER: <https://github.com/Ma-Dan/XLNet-ChineseNER>
 - XLNet-NER: <https://github.com/huggingface/transformers>
@@ -102,3 +119,4 @@ python3 flair_baseline_en.py
 - xlm-roberta: <https://github.com/mohammadKhalifa/xlm-roberta-ner>
 - bert-bilstm-crf: <https://github.com/macanv/BERT-BiLSTM-CRF-NER>
 - bert-bilstm-crf: <https://github.com/kyzhouhzau/Bert-BiLSTM-CRF>
+- KVMN: <https://github.com/cuhksz-nlp/AESINER>
