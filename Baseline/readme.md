@@ -99,7 +99,7 @@ python3 flair_baseline_en.py
 # KVMN
 for English datasets
 ```
-python run_en.py  and python run_cn.py for Chinese datasets
+python run_en.py
 ```
 for Chinese datasets
 ```
