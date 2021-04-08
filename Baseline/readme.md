@@ -105,6 +105,16 @@ for Chinese datasets
 ```
 python run_cn.py
 ```
+
+# Hearst_Pattern
+for English datasets
+```
+python baseline_en.py
+```
+for Chinese datasets
+```
+python baseline_ch.py
+```
 # Reference
 - XLNet-NER: <https://github.com/Ma-Dan/XLNet-ChineseNER>
 - XLNet-NER: <https://github.com/huggingface/transformers>
